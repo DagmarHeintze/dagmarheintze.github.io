@@ -1,0 +1,22 @@
+::: {.page-wrapper}
+
+::: {.sidebar}
+<img src="images/profile.jpg" class="profile-photo"/>
+
+<img src="images/_DSC4573.jpg" class="sidebar-image"/>
+:::
+
+::: {.main-content}
+
+I am a political science doctoral candidate, studying International Relations at the [University of Texas at Dallas](https://www.utdallas.edu/fact-sheets/epps/phd-political-science/). My research topics are Conflict, Human Rights, and International Law.
+
+- My research focuses on conflict processes and political violence...
+- I further focus on the prevention of torture...
+- Furthermore, I research international human rights litigation...
+
+::: contact-section
+Get in touch: <a href="mailto:dagmar.heintze@utdallas.edu">dagmar.heintze\@utdallas.edu</a> | [Twitter](https://twitter.com/DagmarHeintze) | [Bluesky Social](https://bsky.app/profile/dagmarheintze.bsky.social)
+:::
+
+:::
+:::
