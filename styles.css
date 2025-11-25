@@ -71,19 +71,23 @@ body,
   display: flex;
   align-items: stretch;
   gap: 2rem;
-  margin-top: 0;                      /* remove the top gap */
+  margin: 2rem auto 0 auto;     /* top margin + center horizontally */
+  max-width: 1200px;            /* keep content from stretching too wide */
+  padding: 0 1.5rem;            /* a bit of side padding */
   min-height: calc(100vh - 150px);
 }
 
+
 /* ICC image as background panel */
 .sidebar-image {
-  width: 120%;
-  height: 250%;                       /* keep your chosen height */
+  width: 100%;                  /* stay inside the sidebar */
+  height: 250%;                 /* keep your chosen height */
   display: block;
   object-fit: cover;
-  object-position: top center;        /* use the TOP of the image */
+  object-position: top center;
   border-radius: 0;
 }
+
 
 /* Profile photo overlaid on ICC image */
 .profile-photo {
