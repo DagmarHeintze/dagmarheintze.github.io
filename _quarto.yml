@@ -4,6 +4,9 @@ project:
 website:
   title: Dagmar Heintze
   navbar:
+    background: transparent
+    foreground: "#ffffff"
+    collapse-below: md
     right:
       - href: index.hml
         text: Home
