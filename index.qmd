@@ -1,28 +1,35 @@
-::: {.page-wrapper}
+---
+title: "Dagmar Heintze"
+format:
+  html:
+    theme: sandstone
+    page-layout: full
+    css: styles.css
+---
 
-::: {.sidebar}
-<img src="images/profile.jpg" class="profile-photo"/>
+::: page-wrapper
+::: columns
+::: {.column width="50%"}
+::: sidebar
+<img src="images/profile_3.jpg" class="profile-photo"/>
 
 <img src="images/_DSC4573.jpg" class="sidebar-image"/>
 :::
+:::
 
-::: {.main-content}
+::: {.column width="50%"}
+::: main-column
+I am a political science doctoral candidate, studying International Relations at [the University of Texas at Dallas](https://www.utdallas.edu/fact-sheets/epps/phd-political-science/). My research topics are Conflict, Human Rights, and International Law.
 
-I am a political science doctoral candidate, studying International Relations at the [University of Texas at Dallas](https://www.utdallas.edu/fact-sheets/epps/phd-political-science/). My research topics are Conflict, Human Rights, and International Law.
-
-- My research focuses on conflict processes and political violence...
-- I further focus on the prevention of torture...
-- Furthermore, I research international human rights litigation...
+-   My research focuses on conflict processes and political violence, specifically which factors mobilize individuals to participate in political violence and how this violence affects communities in the aftermath.
+-   I further focus on the prevention of torture and inhuman and degrading behavior or punishment and international mechanisms seeking to accomplish improved compliance with international human rights law.
 
 ::: contact-section
-Get in touch: <a href="mailto:dagmar.heintze@utdallas.edu">dagmar.heintze\@utdallas.edu</a> | [Twitter](https://twitter.com/DagmarHeintze) | [Bluesky Social](https://bsky.app/profile/dagmarheintze.bsky.social)
+Get in touch: <a href="mailto:dagmar.heintze@utdallas.edu">dagmar.heintze\@utdallas.edu</a> \| [Twitter](https://twitter.com/DagmarHeintze) \| [Bluesky Social](https://bsky.app/profile/dagmarheintze.bsky.social)
+:::
+:::
+:::
+:::
 :::
 
 :::
-:::
-
-
-:::
-:::
-
-    
