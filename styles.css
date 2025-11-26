@@ -159,42 +159,4 @@ a:focus {
   box-sizing: border-box;
 }
 
-/* -------- Mobile layout adjustments -------- */
-@media (max-width: 768px) {
-
-  /* Stack columns instead of side-by-side */
-  .page-wrapper,
-  .columns {
-    flex-direction: column;
-  }
-
-  .column {
-    width: 100% !important;
-  }
-
-  /* Let the ICC image size naturally and stay visible */
-  .sidebar-image {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    object-position: center;
-  }
-
-  /* Put the profile photo above the text, not floating over the sign */
-  .profile-photo {
-    position: static;
-    display: block;
-    margin: 1.5rem auto;
-    transform: none;
-  }
-
-  /* Make sure the text has nice padding on small screens */
-  .main-column,
-  .research-text,
-  .workingpapers-text {
-    margin-top: 1.5rem;
-    margin-left: 0;
-    padding: 0 1rem;
-  }
-}
 
