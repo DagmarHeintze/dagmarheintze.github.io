@@ -151,10 +151,12 @@ a:focus {
   color: #003366;    /* dark blue to match ICC + links */
 }
 
-/* Global layout for standard content pages */
-.page-columns main.content {
+/* Layout for research + working papers pages only */
+.research-text,
+.workingpapers-text {
   max-width: 900px;        /* readable line length */
   margin: 3rem auto 4rem;  /* centered, same top/bottom spacing */
   padding: 0 2rem;         /* side padding */
   box-sizing: border-box;
 }
+
