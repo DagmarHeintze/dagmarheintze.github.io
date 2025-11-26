@@ -71,11 +71,13 @@ body,
   display: flex;
   align-items: stretch;
   gap: 2rem;
-  margin: 2rem auto 0 auto;     /* top margin + center horizontally */
-  max-width: 1200px;            /* keep content from stretching too wide */
-  padding: 0 1.5rem;            /* a bit of side padding */
+  margin-top: 2rem;
+  width: 100%;              /* stretch full window width */
+  padding: 0 2rem;          /* little breathing room at left/right */
+  box-sizing: border-box;   /* padding doesn’t cause overflow */
   min-height: calc(100vh - 150px);
 }
+
 
 
 /* ICC image as background panel */
@@ -132,3 +134,19 @@ a:focus {
   text-decoration: underline;
 }
 
+/* Right column inner container – spacing from ICC image */
+.main-column {
+  margin-top: 4rem;      /* how far down the text starts */
+  margin-left: 2.5rem;   /* horizontal gap between image and text */
+}
+
+/* Main title – use body font and blue color */
+.quarto-title-block .title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin: 0;
+  color: #003366;    /* dark blue to match ICC + links */
+}
