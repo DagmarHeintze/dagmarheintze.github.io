@@ -13,7 +13,7 @@ format:
 ::: sidebar
 <img src="images/profile_3.jpg" class="profile-photo"/>
 
-<img src="images/_DSC4573.jpg" class="sidebar-image"/>
+<img src="images/DSC4573.jpg" class="sidebar-image"/>
 :::
 :::
 
