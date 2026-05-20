@@ -10,12 +10,10 @@ website:
     right:
       - href: index.html
         text: Home
-      - text: Research
-        menu: 
-        - href: research.html
-          text: Peer-reviewed Research
-        - href: workingpapers.html
-          text: Working Papers
+      - href: research.html
+        text: Peer-Reviewed Research
+      - href: workingpapers.html
+        text: Working Papers
       - href: CV_2026.pdf
         text: CV 
 format:
