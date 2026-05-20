@@ -1,6 +1,6 @@
-![Header](images/IMG_4771-2.jpg)
 
-![Profile Picture](images/profile.jpg)
+
+
 
 ### Hi there 👋
 
