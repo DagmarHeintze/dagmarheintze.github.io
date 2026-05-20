@@ -8,7 +8,7 @@ website:
     foreground: "#ffffff"
     collapse-below: md
     right:
-      - href: index.hml
+      - href: index.html
         text: Home
       - text: Research
         menu: 
