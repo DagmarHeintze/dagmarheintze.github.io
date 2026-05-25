@@ -235,6 +235,8 @@ a:focus {
 .lightbox-overlay img {
   max-width: 90vw;
   max-height: 90vh;
+  width: auto;        /* add this */
+  height: auto;       /* add this */
   border-radius: 6px;
   box-shadow: 0 0 40px rgba(0,0,0,0.6);
 }
