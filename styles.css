@@ -202,3 +202,39 @@ a:focus {
   margin: 0.75rem 0;
   border-radius: 4px;
 }
+
+/* Hide the checkbox */
+.lightbox-toggle {
+  display: none;
+}
+
+/* Make the image look clickable */
+.lightbox-label {
+  cursor: zoom-in;
+  display: block;
+}
+
+/* The dark overlay — hidden by default */
+.lightbox-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 9999;
+  cursor: zoom-out;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Show overlay when checkbox is checked */
+.lightbox-toggle:checked ~ .lightbox-overlay {
+  display: flex;
+}
+
+/* The enlarged image */
+.lightbox-overlay img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 6px;
+  box-shadow: 0 0 40px rgba(0,0,0,0.6);
+}
