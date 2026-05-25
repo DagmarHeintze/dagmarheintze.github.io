@@ -196,7 +196,7 @@ a:focus {
 }
 
 .paper-figure {
-  width: 60%;
+  width: 40%; /* or 30%, 50% — relative to the container */
   max-width: 600px;
   display: block;
   margin: 0.75rem 0;
