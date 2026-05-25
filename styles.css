@@ -196,8 +196,8 @@ a:focus {
 }
 
 .paper-figure {
-  width: 75%; /* or 30%, 50% — relative to the container */
-  max-width: 600px;
+  width: 300px; /* exact size regardless of screen width */
+  max-width: 100%; /* prevents overflow on small screens */
   display: block;
   margin: 0.75rem 0;
   border-radius: 4px;
