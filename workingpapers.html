@@ -123,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./CV_2025.pdf"> 
+    <a class="nav-link" href="./CV_2026.pdf"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -610,6 +610,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.navbar-nav .nav-item').forEach(function(item) {
+    var t = item.textContent.trim();
+    if (t.includes('Conference Presentations')) {
+      item.style.display = 'none';
+    }
+    if (t.startsWith('Research')) {
+      var toggle = item.querySelector('.dropdown-toggle');
+      if (toggle) {
+        toggle.removeAttribute('data-bs-toggle');
+        toggle.removeAttribute('data-toggle');
+        toggle.classList.remove('dropdown-toggle');
+        toggle.setAttribute('href', 'research.html');
+        var menu = item.querySelector('.dropdown-menu');
+        if (menu) menu.style.display = 'none';
+        item.classList.remove('dropdown');
+      }
+    }
+  });
+});
+</script>
 
 
 
